@@ -1,0 +1,4 @@
+#!/bin/bash
+#Si no devuelve nada, es una llave publica
+
+openssl pkey -inform PEM -pubin -in $1 -noout &> /dev/null || echo "this was definitely not a public key in PEM format"
