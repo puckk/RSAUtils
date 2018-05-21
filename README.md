@@ -16,9 +16,13 @@ $ python rsabuilder.py 61 53 17
 ```
 
 **Output folder**: output_1526911937
+
 */asn1.conf*:    asn1parse file (for openssl)
+
 */privkey.der*:  RSA private key in DER format
+
 */key.priv*:     RSA private key in b64
+
 */key.pub*:      RSA Public key in b64
 
 
