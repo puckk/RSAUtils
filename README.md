@@ -3,7 +3,7 @@
 rsabuilder
 ==========
 
-Script to create public and private key via openssl using "p", "q" and "e" in decimal value
+Script to create public and private key in DER and PEM format via openssl using "p", "q" and "e" in decimal value
 
 
 Example:
